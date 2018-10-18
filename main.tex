@@ -1,0 +1,530 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}% delete the demo option in your actual code
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{mathabx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{bigstrut}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{siunitx}
+\usepackage{makecell}
+\usepackage{textcomp}
+\usepackage{titlesec}
+\usepackage[para]{footmisc}
+\usepackage[nottoc]{tocbibind}
+\usepackage{hyperref}
+\geometry{lmargin=.5cm,bmargin=0.5cm,rmargin=1.5cm}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\begin{document}
+
+\section{Position variating Sources}\label{possection:KmeulenTrap4P23:10min}
+
+\begin{longtable}{c|c|c|c|c} 
+\toprule 
+Database & Ra (deg) & Dec (deg)& Fk5 & Id/Link \\\midrule 
+\endfirsthead 
+\toprule 
+Database & Ra (deg) & Dec (deg) & Fk5 &Id/Link  \\\midrule 
+\endhead 
+\bottomrule 
+\endfoot 
+\bottomrule
+\caption{ Comparison position of candidates with TGSS and VLSSR for the 10min timescale data} 
+\endlastfoot
+\label{KmeulenTrap4P23:10min:tablepos}
+
+tgss \& vlssr & -176.475 & 50.479 & 12 14 06 +50 28 44 &  \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/15972}{15972} \\
+tgss \& vlssr & -173.524 & 44.939 & 12 25 54 +44 56 22 &  \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/16130}{16130} \\
+tgss \& vlssr & -171.723 & 45.484 & 12 33 07 +45 29 01 &  \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/16216}{16216} \\
+tgss \& vlssr & -175.262 & 50.444 & 12 18 57 +50 26 37 &  \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/16306}{16306} \\
+tgss \& vlssr & -174.211 & 44.590 & 12 23 09 +44 35 24 &  \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/16326}{16326} \\
+\end{longtable}
+
+\subsection{Images}
+\begin{longtable}{m{1cm}|m{6cm}|m{6cm}|m{6cm}} 
+\toprule 
+Id & Data & TGSS (deg)& VLSSR  \\\midrule 
+\endfirsthead 
+\toprule 
+Id & Data & TGSS (deg)& VLSSR   \\\midrule 
+\endhead 
+\bottomrule 
+\endfoot 
+\bottomrule
+\caption{Images to compare the  position of our candidates with TGSS and VLSSR for the 10min timescale data} 
+\endlastfoot
+\label{KmeulenTrap4P23:10min:tablepos_images}
+\href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/15972}{15972} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/15972cutout_own.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/15972cutout_tgss.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/15972cutout_vlssr.png}} \\
+\href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/16130}{16130} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16130cutout_own.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16130cutout_tgss.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16130cutout_vlssr.png}} \\
+\href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/16216}{16216} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16216cutout_own.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16216cutout_tgss.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16216cutout_vlssr.png}} \\
+\href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/16306}{16306} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16306cutout_own.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16306cutout_tgss.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16306cutout_vlssr.png}} \\
+\href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/16326}{16326} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16326cutout_own.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16326cutout_tgss.png}} & \raisebox{-\totalheight}{\includegraphics[width=6cm, height=6cm]{KmeulenTrap4P23_10min/16326cutout_vlssr.png}} \\
+\end{longtable}
+
+\begin{landscape}
+
+\section{Fluxvariating Sources}\label{varsection:KmeulenTrap4P23:10min}
+
+\begin{longtable}{c|c|c|c|c|c|c|c|c|c|c|c} 
+\toprule 
+Flux147.5MHz (Jy) & Tgss (Jy) & Flux74MHz (Jy)& Vlssr (Jy) & fk5 & Ra (deg) & Dec (deg) &tggsRa&tgssDec&vlssrRa&vlssrDec& Id/Link \\\midrule 
+\endfirsthead 
+\toprule 
+Flux147.5MHz (Jy) & Tgss (Jy) & Flux74MHz (Jy)& Vlssr (Jy)& fk5 & Ra (deg) & Dec (deg)  &tggsRa&tgssDec&vlssrRa&vlssrDec& Id/Link \\\midrule 
+\endhead 
+\bottomrule 
+\endfoot 
+\bottomrule
+\caption{ Comparison of fluxes that vary from catalogues TGSS and VLSSR for 10min images} 
+\endlastfoot
+\label{KmeulenTrap4P23:10min:tablevar}
+0.72 & 1.152 & 1.138 & 1.866 & 12 09 45 +46 55 17 &  182.436 & 46.921 &  182.438 & 46.921 & 182.437 & 46.921 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/10792}{10792}  \\
+0.974 & 1.634 & 1.54 & 2.609 & 12 14 37 +50 06 42 &  183.654 & 50.112 &  183.659 & 50.113 & 183.659 & 50.115 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/10869}{10869}  \\
+1.904 & 1.427 & - & - & 12 28 52 +48 58 01 &  187.216 & 48.967 &  187.215 & 48.967 & - & - & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6622}{6622}  \\
+0.78 & 1.336 & 1.234 & 2.031 & 12 11 03 +45 39 04 &  182.764 & 45.651 &  182.761 & 45.654 & 182.760 & 45.653 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6786}{6786}  \\
+1.681 & 3.763 & 2.659 & 5.306 & 12 13 27 +48 23 13 &  183.363 & 48.387 &  183.372 & 48.387 & 183.373 & 48.387 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11194}{11194}  \\
+0.829 & 2.337 & 1.311 & 3.276 & 12 23 13 +44 35 57 &  185.804 & 44.599 &  185.794 & 44.595 & 185.793 & 44.595 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11229}{11229}  \\
+1.548 & 2.736 & 2.448 & 4.509 & 12 25 55 +44 56 20 &  186.479 & 44.939 &  186.478 & 44.940 & 186.478 & 44.939 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11051}{11051}  \\
+0.698 & 1.573 & 1.104 & 2.198 & 12 28 49 +44 47 13 &  187.203 & 44.787 &  187.209 & 44.788 & 187.210 & 44.788 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7150}{7150}  \\
+0.786 & 1.412 & 1.243 & 2.276 & 12 07 48 +45 13 57 &  181.949 & 45.232 &  181.946 & 45.233 & 181.947 & 45.233 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6747}{6747}  \\
+1.081 & 0.751 & - & - & 12 32 35 +48 21 32 &  188.145 & 48.359 &  188.145 & 48.359 & - & - & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6677}{6677}  \\
+1.484 & 2.534 & 2.347 & 4.146 & 12 25 24 +45 14 51 &  186.351 & 45.247 &  186.353 & 45.252 & 186.352 & 45.250 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6571}{6571}  \\
+0.724 & 0.501 & - & - & 12 25 12 +45 23 27 &  186.301 & 45.391 &  186.302 & 45.391 & - & - & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6567}{6567}  \\
+0.733 & 0.565 & 1.16 & 1.011 & 12 27 35 +44 58 30 &  186.895 & 44.975 &  186.895 & 44.976 & 186.897 & 44.975 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6612}{6612}  \\
+- & - & 1.464 & 1.787 & 12 39 26 +47 28 07 &  189.858 & 47.469 &  - & - & 189.856 & 47.471 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6880}{6880}  \\
+- & - & 2.595 & 3.539 & 12 24 13 +46 20 13 &  186.053 & 46.337 &  - & - & 186.052 & 46.336 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6552}{6552}  \\
+- & - & 1.264 & 1.441 & 12 15 10 +46 27 14 &  183.791 & 46.454 &  - & - & 183.791 & 46.453 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6431}{6431}  \\
+- & - & 2.525 & 2.673 & 12 10 41 +49 07 30 &  182.671 & 49.125 &  - & - & 182.672 & 49.126 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6790}{6790}  \\
+- & - & 9.882 & 9.248 & 12 22 52 +50 26 56 &  185.715 & 50.449 &  - & - & 185.716 & 50.451 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11221}{11221}  \\
+- & - & 1.742 & 2.189 & 12 31 07 +47 59 12 &  187.778 & 47.987 &  - & - & 187.776 & 47.986 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6659}{6659}  \\
+- & - & 1.501 & 1.37 & 12 22 08 +46 45 17 &  185.533 & 46.755 &  - & - & 185.531 & 46.755 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11212}{11212}  \\
+- & - & 4.398 & 3.886 & 12 09 58 +46 18 04 &  182.490 & 46.301 &  - & - & 182.490 & 46.300 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6776}{6776}  \\
+- & - & 3.215 & 3.012 & 12 21 11 +48 42 40 &  185.295 & 48.711 &  - & - & 185.295 & 48.714 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/10999}{10999}  \\
+- & - & 2.822 & 2.586 & 12 32 38 +48 17 04 &  188.157 & 48.285 &  - & - & 188.154 & 48.283 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6679}{6679}  \\
+- & - & 1.408 & 1.243 & 12 07 02 +48 01 56 &  181.759 & 48.032 &  - & - & 181.760 & 48.032 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6744}{6744}  \\
+- & - & 1.361 & 1.116 & 12 26 01 +45 51 51 &  186.502 & 45.864 &  - & - & 186.501 & 45.866 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6583}{6583}  \\
+- & - & 5.64 & 4.409 & 12 34 21 +49 14 28 &  188.587 & 49.241 &  - & - & 188.586 & 49.242 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/8011}{8011}  \\
+- & - & 1.731 & 2.269 & 12 18 57 +50 26 33 &  184.738 & 50.443 &  - & - & 184.732 & 50.444 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11316}{11316}  \\
+- & - & 1.645 & 2.565 & 12 08 05 +49 48 36 &  182.022 & 49.810 &  - & - & 182.019 & 49.810 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7605}{7605}  \\
+- & - & 1.52 & 1.476 & 12 14 06 +50 28 46 &  183.524 & 50.480 &  - & - & 183.525 & 50.481 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/8644}{8644}  \\
+- & - & 1.257 & 0.522 & 12 19 06 +48 29 56 &  184.777 & 48.499 &  - & - & 184.777 & 48.501 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/10262}{10262}  \\
+- & - & 1.881 & 1.573 & 12 08 25 +49 43 29 &  182.103 & 49.725 &  - & - & 182.104 & 49.725 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7286}{7286}  \\
+- & - & 1.344 & 1.488 & 12 26 08 +47 36 55 &  186.532 & 47.615 &  - & - & 186.532 & 47.616 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7888}{7888}  \\
+- & - & 2.906 & 3.229 & 12 04 36 +48 56 54 &  181.150 & 48.948 &  - & - & 181.149 & 48.950 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7247}{7247}  \\
+- & - & 1.096 & 1.223 & 12 12 03 +46 56 14 &  183.011 & 46.937 &  - & - & 183.015 & 46.937 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/8874}{8874}  \\
+- & - & 2.494 & 2.413 & 12 21 24 +50 35 26 &  185.349 & 50.591 &  - & - & 185.347 & 50.593 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6801}{6801}  \\
+- & - & 3.233 & 2.621 & 12 05 13 +48 17 54 &  181.302 & 48.298 &  - & - & 181.302 & 48.299 & \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6729}{6729}  \\
+\end{longtable}
+
+\end{landscape}
+
+\subsection{Fits}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6786.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6786}{6786},\\with a goodness of fit of: 0.00 and a dof of: 0}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6786:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min11229.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11229}{11229},\\with a goodness of fit of: 0.0 and a dof of: 0}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:11229:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min10792.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/10792}{10792},\\with a goodness of fit of: 2.23 and a dof of: 5}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:10792:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min11194.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11194}{11194},\\with a goodness of fit of: 8.59 and a dof of: 1}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:11194:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min10869.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/10869}{10869},\\with a goodness of fit of: 0.00 and a dof of: 0}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:10869:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min7150.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7150}{7150},\\with a goodness of fit of: 0.0 and a dof of: 0}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:7150:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6747.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6747}{6747},\\with a goodness of fit of: 0.00 and a dof of: 0}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6747:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6622.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6622}{6622},\\with a goodness of fit of: 6.26 and a dof of: 6}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:6622:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min11051.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11051}{11051},\\with a goodness of fit of: 0.53 and a dof of: 6}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:11051:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6677.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6677}{6677},\\with a goodness of fit of: 3.24 and a dof of: 5}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:6677:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6612.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6612}{6612},\\with a goodness of fit of: 1.19 and a dof of: 6}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6612:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6552.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6552}{6552},\\with a goodness of fit of: 2.53 and a dof of: 5}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:6552:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6431.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6431}{6431},\\with a goodness of fit of: 15.84 and a dof of: 7}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6431:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6880.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6880}{6880},\\with a goodness of fit of: 25.0 and a dof of: 0}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:6880:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6571.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6571}{6571},\\with a goodness of fit of: 0.00 and a dof of: 0}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6571:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min11212.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11212}{11212},\\with a goodness of fit of: 2.62 and a dof of: 5}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:11212:plot}
+    \end{minipage}
+\end{figure}
+\newpage
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6567.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6567}{6567},\\with a goodness of fit of: 1.31 and a dof of: 3}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6567:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6790.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6790}{6790},\\with a goodness of fit of: 2.59 and a dof of: 5}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:6790:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6659.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6659}{6659},\\with a goodness of fit of: 1.72 and a dof of: 2}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6659:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6776.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6776}{6776},\\with a goodness of fit of: 1.67 and a dof of: 6}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:6776:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min11221.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11221}{11221},\\with a goodness of fit of: 10.86 and a dof of: 5}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:11221:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min10999.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/10999}{10999},\\with a goodness of fit of: 1.25 and a dof of: 6}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:10999:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6744.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6744}{6744},\\with a goodness of fit of: 0.94 and a dof of: 5}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6744:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6583.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6583}{6583},\\with a goodness of fit of: 1.32 and a dof of: 3}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:6583:plot}
+    \end{minipage}
+\end{figure}
+\newpage
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6679.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6679}{6679},\\with a goodness of fit of: 0.26 and a dof of: 2}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6679:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min8011.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/8011}{8011},\\with a goodness of fit of: 2.72 and a dof of: 5}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:8011:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min11316.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/11316}{11316},\\with a goodness of fit of: 0.00 and a dof of: 0}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:11316:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min10262.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/10262}{10262},\\with a goodness of fit of: 6.38 and a dof of: 10}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:10262:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min7286.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7286}{7286},\\with a goodness of fit of: 3.01 and a dof of: 4}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:7286:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min8644.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/8644}{8644},\\with a goodness of fit of: 1.58 and a dof of: 4}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:8644:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min7247.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7247}{7247},\\with a goodness of fit of: 1.39 and a dof of: 6}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:7247:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min7888.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7888}{7888},\\with a goodness of fit of: 2.61 and a dof of: 2}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:7888:plot}
+    \end{minipage}
+\end{figure}
+\newpage
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6801.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6801}{6801},\\with a goodness of fit of: 2.76 and a dof of: 4}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:6801:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min6729.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/6729}{6729},\\with a goodness of fit of: 2.66 and a dof of: 4}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:6729:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min8874.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/8874}{8874},\\with a goodness of fit of: 1.24 and a dof of: 3}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:8874:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min8874.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/8874}{8874},\\with a goodness of fit of: 1.24 and a dof of: 3}
+    \addtocounter{figure}{-1}
+    \label{KmeulenTrap4P23:10min:8874:plot}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{KmeulenTrap4P23_10min/10min7605.png}
+        \captionsetup{labelformat=empty}
+        \caption{Plot of source: \href{http://banana.transientskp.org/r4/vlo_KmeulenTrap4P23/runningcatalog/7605}{7605},\\with a goodness of fit of: 2.88 and a dof of: 1}
+        \addtocounter{figure}{-1}
+        \label{KmeulenTrap4P23:10min:7605:plot}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+
+--
+        \end{minipage}
+\end{figure}
+\section{Effect on Candidate List}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c| c | c|}
+    \toprule
+     Step & Candidate list before & Candidate list after\\
+    \midrule
+        Initial Selector & 602 & 50 \\
+        PosVarCandi & 50 & 5 \\
+        FluxVarCandi & 50 & 36  \\
+        \midrule
+    \end{tabular}
+    \caption{Effect of our script on the size of the candidate list for the 10min timescale images}
+    \label{KmeulenTrap4P23:10min:overviewcandidates}
+\end{table}
+
+\end{document}
